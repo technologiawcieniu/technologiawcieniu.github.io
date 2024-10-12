@@ -31,8 +31,14 @@ aside{
     text-align: right;
 }
 
-footer{
+main{
+    margin-top: 50px;
+}
 
+footer{
+    padding:20px;
+    color: white;
+    background-color: #0080dd;
 }
 
 #title{
@@ -50,7 +56,4 @@ footer{
     margin:0;
     color:#8bfff0; 
     font-size: 60px;
-}
-nav{
-    text-align: center;
 }
