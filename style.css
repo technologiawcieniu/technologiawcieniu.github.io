@@ -12,7 +12,7 @@
 *{
     color:white;
     font-family: "tt-interphases";
-    font-size: 32px;
+    font-size: 1.5vw;
 }
 
 body{
@@ -21,35 +21,35 @@ body{
 }
 
 header{
-    margin-left: 300px;
+    margin-left: 15vw;
     display: inline-block;
-    width: 920px;
+    width: fit-content;
 }
 
 aside{
-    margin-right:300px;
+    margin-right:15vw;
     display: inline-block;
     float: right;
     text-align: right;
 }
 
 main{
-    margin: 0px 300px;
-    margin-top: 50px;
+    margin: 50px 15vw;
 }
 
 footer{
     position: fixed;
     bottom: 0;
     width: 100%;
-    padding: 50px 300px;
+    padding: 50px 15vw;
     color: white;
     background-color: #0080dd;
+    margin:50px, 0px;
 }
 
 #title{
     margin:0;
-    font-size: 75px;
+    font-size: 2.5em;
     background-image: linear-gradient(90deg, #8bfff0, #ffffff00);
     background-clip: text;
     -webkit-background-clip: text;
@@ -61,5 +61,5 @@ footer{
 .a1{
     margin:0;
     color:#8bfff0; 
-    font-size: 60px;
+    font-size: 2em;
 }
