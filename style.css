@@ -1,0 +1,59 @@
+@font-face{
+    font-family: "tt-interphases";
+    src: url("./fontregular.ttf");
+}
+
+@font-face{
+    font-family: "tt-interphases";
+    src: url("./fontbold.ttf");
+    font-weight: bold;
+}
+
+*{
+    color:white;
+    font-family: "tt-interphases";
+    font-size: 32px;
+}
+
+body{
+    margin: 50px 300px;
+    background-image: linear-gradient(90deg,#131489, #0e0f61);
+}
+
+header{
+    display: inline-block;
+    width: 920px;
+}
+
+aside{
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+
+main{
+    margin-top: 50px;
+}
+
+footer{
+    padding:20px;
+    color: white;
+    background-color: #0080dd;
+}
+
+#title{
+    margin:0;
+    font-size: 75px;
+    background-image: linear-gradient(90deg, #8bfff0, #ffffff00);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.a1{
+    margin:0;
+    color:#8bfff0; 
+    font-size: 60px;
+}
