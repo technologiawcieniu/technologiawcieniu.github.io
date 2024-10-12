@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "tt-interphases";
+    src: url("./font.ttf");
+}
+
+*{  
+    background-color: #131489;
+    font-family: "tt-interphases";
+    
+}
+
+#title{
+    padding: auto;
+    margin:auto;
+    font-size: 75px;
+    width: 920px;
+    background-image: linear-gradient(90deg, #8bfff0, #131489);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
