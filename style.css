@@ -10,7 +10,6 @@
 }
 
 *{
-    color:white;
     font-family: "tt-interphases";
     font-size: 1.3vw;
 }   
@@ -22,8 +21,9 @@
     }
 }
 body{
+    color:white;
     margin: 50px 0px;
-    background-image: linear-gradient(90deg,#131489, #0e0f61);
+    background-color: #131489;
 }
 
 header{
@@ -32,7 +32,7 @@ header{
     width: fit-content;
 }
 
-aside{
+#pomyslodawca{
     margin-right:10vw;
     display: inline-block;
     float: right;
@@ -50,7 +50,6 @@ footer{
     padding: 50px 10vw;
     color: white;
     background-color: #0080dd;
-    margin:50px, 0px;
 }
 
 #title{
@@ -68,4 +67,13 @@ footer{
     margin:0;
     color:#8bfff0; 
     font-size: 2em;
+}
+
+#glosowanie{
+    font-weight: bold;
+    color: #131489;
+    background-color: #8bfff0;
+    margin:0;
+    width: fit-content;
+    font-size: 1.5em;
 }
