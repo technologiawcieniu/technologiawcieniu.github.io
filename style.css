@@ -52,7 +52,7 @@ footer{
     font-weight: bold;
     margin:0;
     font-size: 3em;
-    background-image: linear-gradient(90deg, #8bfff0, #ffffff00);
+    background-image: linear-gradient(90deg, #8bfff0, #8bfff01b);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
