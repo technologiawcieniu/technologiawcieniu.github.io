@@ -51,9 +51,9 @@ main{
 }
 
 footer{
-    padding: 50px 10vw;
+    padding: 30px 10vw;
     color: white;
-    background-color: #0080dd;
+    background-image: linear-gradient(to right, #0081dd, #0081dd);
 }
 
 #title{
@@ -77,7 +77,8 @@ footer{
 #glosowanie{
     font-weight: bold;
     color: #131489;
-    background-color: #8bfff0;
+    /* background-color: #8bfff0; */
+    background-image: linear-gradient(to right, #8bfff0, #8bfff09d);
     margin:0;
     width: fit-content;
     font-size: 1.5em;
@@ -93,7 +94,8 @@ h1{
 }
 
 .u{
-    background-color: white;
+    /* background-color: white; */
+    background-image: linear-gradient(to right, white, rgba(255, 255, 255, 0.692));
     width: fit-content;
     color:#131489;
     padding:5px;
@@ -102,10 +104,10 @@ h1{
 
 li{
     width: fit-content;
-    border: 1px solid;
+    border: 1px solid rgba(255, 255, 255, 0.435);
     border-radius: 30px;
-    padding: 5px;
-    margin:5px;
+    padding: 4px;
+    margin-bottom:10px;
 }
 
 li::marker{
